@@ -1,0 +1,100 @@
+{
+  "HTML Basic Template": {
+    "prefix": "!hB1",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"${3:en}\">",
+      "<head>",
+      "   <meta charset=\"UTF-8\">",
+      "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "   <title>${1:title}</title>",
+      "</head>",
+      "<body>",
+      "${2:body}",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "HTML+Bootstrap5 Template": {
+    "prefix": "!hBoot",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"${3:en}\">",
+      "<head>",
+      "   <meta charset=\"UTF-8\">",
+      "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "   <title>${1:title}</title>",
+      "   <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">",
+      "</head>",
+      "<body>",
+      "${2:body}",
+      "<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js\" integrity=\"sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13\" crossorigin=\"anonymous\"></script>",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "HTML+Bootstrap5+jQuery3 Template": {
+    "prefix": "!hBj",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"${3:en}\">",
+      "<head>",
+      "   <meta charset=\"UTF-8\">",
+      "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "   <title>${1:title}</title>",
+      "   <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">",
+      "</head>",
+      "<body>",
+      "${2:body}",
+      "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>",
+      "<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js\" integrity=\"sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13\" crossorigin=\"anonymous\"></script>",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "HTML+Bootstrap5+jQuery3+FontAwesome5 Template": {
+    "prefix": "!hBjF",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"${3:en}\">",
+      "<head>",
+      "   <meta charset=\"UTF-8\">",
+      "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "   <title>${1:title}</title>",
+      "   <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">",
+      "   <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css\" integrity=\"sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7\" crossorigin=\"anonymous\">",
+      "</head>",
+      "<body>",
+      "${2:body}",
+      "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>",
+      "<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js\" integrity=\"sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13\" crossorigin=\"anonymous\"></script>",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "Add jQuery Script Tag": {
+    "prefix": "!jqueryJS",
+    "body": [
+      "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>"
+    ]
+  },
+  "Add Bootstrap CSS Tag": {
+    "prefix": "!bootCSS",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">",
+    ]
+
+  },
+  "Add Bootstrap Script Tag": {
+    "prefix": "!bootJS",
+    "body": [
+      "<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js\" integrity=\"sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13\" crossorigin=\"anonymous\"></script>",
+    ]
+  },
+  "Add Fontawesome CSS Tag": {
+    "prefix": "!fa-css",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css\" integrity=\"sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7\" crossorigin=\"anonymous\">"
+    ]
+  }
+}
